@@ -25,10 +25,17 @@ li{
     margin: 10px 10px;
     
 }
+li:hover{
+    background-color: transparent;
+    box-shadow: 5px 4px 5px white;
+}
 #padre, ul{
     background-color: black;
     display: flex;
     justify-content: space-around;
+    position: absolute;
+    top: 0px;
+    
 }
 .hija{
     background-color: aqua;
