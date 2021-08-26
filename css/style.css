@@ -7,11 +7,11 @@ html{
     font-family: 'IBM Plex Sans Thai', sans-serif;
 }
 body{
-    background-color: bisque;
+    background-color: rgb(163, 13, 13);
 }
 h1{
     text-align: center;
-    background-color: black;
+    background-color: rgb(10, 11, 99);
     color: white !important;
 }
 li{
@@ -27,18 +27,18 @@ li{
 }
 li:hover{
     background-color: transparent;
-    box-shadow: 5px 4px 5px white;
+    box-shadow: 5px 4px 5px rgb(161, 163, 13);
 }
 #padre, ul{
-    background-color: black;
+    background-color: rgb(18, 11, 109);
     display: flex;
     justify-content: space-around;
-    position: absolute;
+    position: relative;
     top: 0px;
     
 }
 .hija{
-    background-color: aqua;
+    background-color: rgb(195, 207, 16);
     width: 150px;
     height: 150px;
     margin-top: 50px;
