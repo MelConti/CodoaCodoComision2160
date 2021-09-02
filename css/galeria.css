@@ -1,12 +1,13 @@
 body{
-    background-color: rgb(95, 93, 93);
+    background-color: rgb(0, 0, 0);
 }
 .galeria{
     height: calc(500px + 3em);
     width: 550px;
     margin: 1em auto;
-    border: 1px solid black;
+    border: 1px solid rgb(145, 128, 128);
     position: relative;
+    background-color: rgb(80, 57, 49);
 }
 .galeria img{
     position: absolute;
@@ -14,7 +15,7 @@ body{
     left: 0px;
     width: 550px;
     opacity: 0;
-    transition: 3s;
+    transition: 1s;
 }
 .galeria input[type=radio]{
     position: relative;
