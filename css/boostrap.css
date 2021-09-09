@@ -1,0 +1,15 @@
+body{
+    background-image: url(../img/Boca\ Juniors.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.btn-primary{
+    background-color: orange;
+}
+.btn-primary:hover{
+    background-color: white;
+    color: black;
+}
+.bg-danger{
+    background-color: blueviolet;
+}
