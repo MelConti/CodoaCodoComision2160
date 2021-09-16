@@ -16,7 +16,7 @@ body{
   animation-delay: 2s;
   animation-iteration-count: infinite;
   position: absolute;
-  left: 270px;
+  left: 500px;
 }
 @keyframes ancla{
   from{color:rgb(228, 228, 32);top: 50px}
